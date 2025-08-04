@@ -71,9 +71,9 @@ export default function ConfidentialityPage() {
                     <section className="mb-6">
                         <h2 className="text-2xl font-semibold mb-2">4. Conservation des Données</h2>
                         <ul className="list-disc pl-5 text-white/90 space-y-1">
-                            <li>Compte actif : données conservées jusqu’à suppression volontaire</li>
+                            <li>Compte actif : données conservées jusqu&rsquo;à suppression volontaire</li>
                             <li>Médias supprimés : effacés définitivement des serveurs</li>
-                            <li>Obligations légales : jusqu’à 10 ans (ex. documents fiscaux)</li>
+                            <li>Obligations légales : jusqu&rsquo;à 10 ans (ex. documents fiscaux)</li>
                         </ul>
                     </section>
 
