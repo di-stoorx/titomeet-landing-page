@@ -1,4 +1,3 @@
-// pages/confidentiality.tsx
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -16,12 +15,12 @@ export default function ConfidentialityPage() {
             <main className="min-h-screen text-white py-10 max-w-full">
                 <div className="max-w-[80%] mx-auto">
                     <h1 className="text-4xl font-bold mb-2">Politique de Confidentialité</h1>
-                    <p className="text-white/70 mb-8">Dernière mise à jour : 18 juin 2025</p>
+                    <p className="text-white/70 mb-8">{`Dernière mise à jour : 18 juin 2025`}</p>
 
                     <section className="mb-6">
                         <h2 className="text-2xl font-semibold mb-2">1. Responsable du Traitement</h2>
                         <p className="text-white/90 text-justify">
-                            TITOMEET, édité par Optimatech, est responsable du traitement des données conformément au Règlement Général sur la Protection des Données (RGPD).
+                            {`TITOMEET, édité par Optimatech, est responsable du traitement des données conformément au Règlement Général sur la Protection des Données (RGPD).`}
                         </p>
                     </section>
 
@@ -42,7 +41,7 @@ export default function ConfidentialityPage() {
                                     <td>Nécessité contractuelle</td>
                                 </tr>
                                 <tr className="border-b border-white/10">
-                                    <td className="py-3">Photos & médias (via accès à la galerie)</td>
+                                    <td className="py-3">{`Photos & médias (via accès à la galerie)`}</td>
                                     <td>Personnalisation de votre profil, partage dans l’application</td>
                                     <td>Consentement explicite</td>
                                 </tr>
@@ -54,7 +53,7 @@ export default function ConfidentialityPage() {
                             </tbody>
                         </table>
                         <p className="text-white/80 mt-2 text-sm">
-                            ⚠️ Aucune donnée de localisation continue : l’application n’utilise que les médias via permissions Android/IOS (pas de suivi caméra, pas d’audio).
+                            {`⚠️ Aucune donnée de localisation continue : l’application n’utilise que les médias via permissions Android/IOS (pas de suivi caméra, pas d’audio).`}
                         </p>
                     </section>
 
@@ -71,9 +70,9 @@ export default function ConfidentialityPage() {
                     <section className="mb-6">
                         <h2 className="text-2xl font-semibold mb-2">4. Conservation des Données</h2>
                         <ul className="list-disc pl-5 text-white/90 space-y-1">
-                            <li>Compte actif : données conservées jusqu&rsquo;à suppression volontaire</li>
+                            <li>{`Compte actif : données conservées jusqu’à suppression volontaire`}</li>
                             <li>Médias supprimés : effacés définitivement des serveurs</li>
-                            <li>Obligations légales : jusqu&rsquo;à 10 ans (ex. documents fiscaux)</li>
+                            <li>{`Obligations légales : jusqu’à 10 ans (ex. documents fiscaux)`}</li>
                         </ul>
                     </section>
 
@@ -82,27 +81,19 @@ export default function ConfidentialityPage() {
                         <div className="grid md:grid-cols-2 gap-4">
                             <div className="bg-white/5 p-4 rounded-lg">
                                 <h3 className="font-medium mb-2">Accès & Portabilité</h3>
-                                <p className="text-sm text-white/80">
-                                    Obtenez une copie de vos données en format lisible
-                                </p>
+                                <p className="text-sm text-white/80">Obtenez une copie de vos données en format lisible</p>
                             </div>
                             <div className="bg-white/5 p-4 rounded-lg">
                                 <h3 className="font-medium mb-2">Rectification</h3>
-                                <p className="text-sm text-white/80">
-                                    Corrigez vos informations erronées
-                                </p>
+                                <p className="text-sm text-white/80">Corrigez vos informations erronées</p>
                             </div>
                             <div className="bg-white/5 p-4 rounded-lg">
                                 <h3 className="font-medium mb-2">Suppression</h3>
-                                <p className="text-sm text-white/80">
-                                    Supprimez définitivement votre compte
-                                </p>
+                                <p className="text-sm text-white/80">Supprimez définitivement votre compte</p>
                             </div>
                             <div className="bg-white/5 p-4 rounded-lg">
                                 <h3 className="font-medium mb-2">Opposition</h3>
-                                <p className="text-sm text-white/80">
-                                    Limitez ou refusez certains traitements
-                                </p>
+                                <p className="text-sm text-white/80">Limitez ou refusez certains traitements</p>
                             </div>
                         </div>
                     </section>
@@ -116,7 +107,7 @@ export default function ConfidentialityPage() {
 
                     <div className="mt-10">
                         <Link href="/">
-                            <span className="underline hover:text-white/70">← Retour à l'accueil</span>
+                            <span className="underline hover:text-white/70">← Retour à l&apos;accueil</span>
                         </Link>
                     </div>
                 </div>
